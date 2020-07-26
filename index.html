@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Health Helper</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <header id="home">
+        <!-- navbar -->
+        <nav id="nav">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!-- links -->
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="scroll-link">Medication Info</a>
+                        </li>
+                        <li>
+                            <a href="#bmi" class="scroll-link">BMI Calculator</a>
+                        </li>
+                        <li>
+                            <a href="#form-contact" class="scroll-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div class="banner">
+            <div class="container">
+                <h1>Your Personal Health Manager</h1>
+
+                <a href="#about" class="scroll-link btn btn-white">What is it about</a>
+            </div>
+        </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>about <span>us</span></h2>
+            <!-- <p>
+                This page provides clinical Drug Data.
+                    Record drug information accurately. Here, you can find the right information about your prescription
+                    drugs quickly. Get alerts for drug-drug interactions and contraindications instantly. The api that is
+                    used is called Mapi US Api. It provides information about various drugs, the active ingredients they
+                    contain as well as the different dosages.Use the calculator to check your body mass index (BMI) and find
+                    out if you're a healthy weight.
+            </p> -->
+            <img class="welcome-banner" src="images/home.jpg">
+        </div>
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+        <div class="title">
+            <h2>our <span>services</span></h2>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="background-intro" class="section">
+        <div class="title">
+            <h2>Health <span>Helper</span></h2>
+            <div class="background-intro-3">
+                <img src="images/surgery.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+        <h3>Get In Touch With Us</h3>
+        <!--Form-->
+        <div class="wrapper animated bounceInLeft">
+            <div class="company-info">
+                
+                <ul>
+                    <li><i class="fa fa-road"></i> 44 Something st</li>
+                    <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+                    <li><i class="fa fa-envelope"></i> test@formsubmission-healthhelper.test</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Get In Touch</h3>
+                <form id="form-contact">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone">
+                    </p>
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5"></textarea>
+                    </p>
+                    <p class="full">
+                        <button>Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <p class="copyright-info">healthhelper.com provides accurate and independent information on more than 24,000 prescription drugs,
+            over-the-counter medicines and natural products. This material is provided for educational purposes only and
+            is
+            not intended for medical advice, diagnosis or treatment. Data sources include MAPI US Api, website Drugs.com
+            and
+            others.</p>
+        <p>
+
+            <span id="date"></span>. all rights reserved
+        </p>
+    </footer>
+
+    <a class="scroll-link top-link" href="#home">
+        <i class="fas fa-arrow-up"></i>
+
+    </a>
+    <!-- javascript -->
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
