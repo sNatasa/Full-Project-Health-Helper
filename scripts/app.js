@@ -79,3 +79,5 @@ scrollLinks.forEach((link) => {
   });
 });
 // calculate heights
+
+/* implementing the api */
