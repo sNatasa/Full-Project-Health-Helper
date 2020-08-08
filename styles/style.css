@@ -87,10 +87,6 @@ a {
   text-decoration: none;
 }
 
-img:not(.logo) {
-  width: 100%;
-}
-
 img {
   display: block;
 }
@@ -185,7 +181,6 @@ p {
   padding-bottom: 5rem;
 }
 
-
 .section-center {
   width: 90vw;
   /* margin: 0 auto; */
@@ -194,71 +189,118 @@ p {
 
 .title p {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+.services {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 26px;
+}
+
+.introduction p {
+  text-align: center;
+  margin-top: 64px;
 }
 
 .welcome-banner {
   height: 500px;
 }
+
+.services-search-bar {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 14px;
+  margin: 14px;
+}
+
+.med-search-bar {
+  /* position: absolute;
+  top: 120px;
+  left: 540px; */
+  width: 400px;
+  height: 26px;
+  padding: 15px;
+  margin: 5px;
+  border: 1.6px solid rgb(88, 86, 86);
+  border-radius: 5px;
+  /* background: transparent; */
+}
+
+.search-btn
+{
+  cursor: pointer;
+ background: transparent;
+ border: 0.2px solid #eee;
+ width: 80px;
+ height: 35px;
+}
+
+.search-btn:hover
+{
+  color: var(--clr-white);
+  background: var(--clr-black);
+}
+
 .background-intro-3 img {
   width: 90%;
   margin: 0 auto;
   height: 520px;
 }
 
-footer h3
-{
+footer h3 {
   color: #c9e6ff;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 15px;
 }
 
-.copyright-info
-{
+.copyright-info {
   padding-top: 55px;
 }
 
 /* FORM STYLES */
-.contact form{
+
+.contact form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap:20px;
+  grid-gap: 20px;
 }
 
-.contact form label{
-  display:block;
+.contact form label {
+  display: block;
 }
 
-.contact form p{
-  margin:0;
+.contact form p {
+  margin: 0;
 }
 
-.contact form .full{
+.contact form .full {
   grid-column: 1 / 3;
 }
 
-.contact form button, .contact form input, .contact form textarea{
-  width:70%;
+.contact form button, .contact form input, .contact form textarea {
+  width: 70%;
   margin-top: 5px;
-  padding:1em;
-  border:1px solid #c9e6ff;
+  padding: 1em;
+  border: 1px solid #c9e6ff;
   border-radius: 35px;
 }
 
-.contact form button{
-  background:(--clr-primary-3);
-  border:0;
+.contact form button {
+  background: (--clr-primary-3);
+  border: 0;
   text-transform: uppercase;
 }
 
-.contact form button:hover,.contact form button:focus{
-  background:#92bde7;
-  color:#fff;
-  outline:0;
+.contact form button:hover, .contact form button:focus {
+  background: #92bde7;
+  color: #fff;
+  outline: 0;
   transition: background-color 2s ease-out;
 }
-
 
 /* ===================== */
 
@@ -429,6 +471,10 @@ header {
 @media screen and (min-width: 768px) {
   .container p {
     max-width: 40rem;
+  }
+  .services-search-bar
+  {
+    justify-content: center;
   }
 }
 
