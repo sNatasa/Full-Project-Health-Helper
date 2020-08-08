@@ -34,7 +34,7 @@
                             <a href="#services" class="scroll-link">Medication Info</a>
                         </li>
                         <li>
-                            <a href="#bmi" class="scroll-link">BMI Calculator</a>
+                            <a href="#about" class="scroll-link">BMI Calculator</a>
                         </li>
                         <li>
                             <a href="#form-contact" class="scroll-link">Contact Us</a>
@@ -48,7 +48,7 @@
             <div class="container">
                 <h1>Your Personal Health Manager</h1>
 
-                <a href="#about" class="scroll-link btn btn-white">What is it about</a>
+                <a href="#services" class="scroll-link btn btn-white">What is it about</a>
             </div>
         </div>
     </header>
@@ -68,6 +68,16 @@
                     out if you're a healthy weight.
                 </p>
 
+            </div>
+            <div class="calculator">
+                <h3>BMI Calculation</h3>
+                <p id="user-info">Proceed by entering your height [cm] and weight [kg].</p>
+                <p class="text">Height</p>
+                <input type="number" id="height-value">
+                <p class="text">Weight</p>
+                <input type="number" id="weight-value">
+                <p id="result"></p>
+                <button id="result-btn" onClick="BMI()">Calculate</button>
             </div>
         </div>
     </section>
@@ -173,10 +183,8 @@
 
     </a>
     <!-- javascript -->
-    <script src="scripts/persistance.js"></script>
-    <script src="scripts/data.js"></script>
-    <script src="scripts/business.js"></script>
-    <script src="scripts/presentation.js"></script>
+    
+    <script src="scripts/bmi.js"></script>
     <script src="scripts/app.js"></script>
 </body>
 
