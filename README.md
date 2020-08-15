@@ -1,4 +1,6 @@
 # Full-Project-Health-Helper
 
-home page ✔
+scroll effect ✔
 list items functionality ✔
+bmi calculator  ✔
+
